@@ -36,7 +36,7 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
 }
 main {
-  max-width: fit-content;
+  max-width: 840px;
 }
 main img {
   width: 150px;

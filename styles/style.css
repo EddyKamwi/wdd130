@@ -16,6 +16,9 @@ body {
   background-color: #5fa8d3;
   color: white;
 }
+h1{
+  font-family:var(--heading-font);
+}
 nav {
   background-color: var(--nav-background-color);
   font-size: 1.2rem;

@@ -35,6 +35,9 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
+main {
+  max-width: fit-content;
+}
 main img {
   width: 150px;
   height: auto;
@@ -48,9 +51,9 @@ main img {
 aside {
   width: 200px;
   margin: 1px;
-  border: 1px solid #1B4965;
+  border: 1px solid #1b4965;
   padding: 2px;
-  background-color: #1B4965;
+  background-color: #1b4965;
   color: white;
   height: auto;
   text-align: center;
@@ -79,5 +82,5 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font);
-  color:var(--accent2-color);
+  color: var(--accent2-color);
 }

@@ -9,7 +9,105 @@
     <link rel="shortcut icon" href="images/profile.jpg" type="image/x-icon">
     <title>Edward Kamwi | WDD 130</title>
     <!-- External CSS -->
-    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        /* External CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #1b4965;
+  --secondary-color: #5fa8d3;
+  --accent1-color: #62b6cb;
+  --accent2-color: #bee9e8;
+
+  --heading-font: "roboto", serif;
+  --paragraph-font: "roboto", serif;
+
+  --nav-background-color: var(--primary-color);
+  --nav-link-color: var(--secondary-color);
+  --nav-hover-link-color: var(--primary-color);
+  --nav-hover-background-color: var(--secondary-color);
+}
+body {
+  background-color: #5fa8d3;
+  color: white;
+}
+h1 {
+  font-family: var(--heading-font);
+}
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+nav a:link,
+nav a:active {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+main {
+  max-width: 840px;
+}
+main img {
+  width: 150px;
+  height: auto;
+  margin: 1px;
+  border: none;
+  padding: 0%;
+  background-color: #5fa8d3;
+  color: black;
+}
+
+aside {
+  width: 20em;
+  text-align: center;
+  position: relative;
+}
+aside h2{
+  position: absolute;
+  top: 47px;
+  left: 150px;
+  color: black;
+}
+p {
+  padding: 0;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 2%;
+  border: white;
+  border-top: solid 1px;
+  text-align: center;
+  background-color: #1b4965;
+}
+
+/* Class Selectors */
+.box {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  color: var(--accent2-color);
+}
+
+.profile_pic{
+  float: right;
+}
+    </style>
 </head>
 
 <body>

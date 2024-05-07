@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --primary-color: #1b4965;
   --secondary-color: #5fa8d3;
@@ -9,15 +15,15 @@
 
   --nav-background-color: var(--primary-color);
   --nav-link-color: var(--secondary-color);
-  --nav-hover-link-color: var(--accent2-color);
+  --nav-hover-link-color: var(--primary-color);
   --nav-hover-background-color: var(--secondary-color);
 }
 body {
   background-color: #5fa8d3;
   color: white;
 }
-h1{
-  font-family:var(--heading-font);
+h1 {
+  font-family: var(--heading-font);
 }
 nav {
   background-color: var(--nav-background-color);
@@ -52,18 +58,15 @@ main img {
 }
 
 aside {
-  width: 200px;
-  margin: 1px;
-  border: 1px solid #1b4965;
-  padding: 2px;
-  background-color: #1b4965;
-  color: white;
-  height: auto;
+  width: 20em;
   text-align: center;
+  position: relative;
 }
-aside img {
-  width: 200px;
-  height: auto;
+aside h2{
+  position: absolute;
+  top: 47px;
+  left: 150px;
+  color: black;
 }
 p {
   padding: 0;
@@ -78,4 +81,15 @@ footer {
   background-color: #1b4965;
 }
 
+/* Class Selectors */
+.box {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  color: var(--accent2-color);
+}
 
+.profile_pic{
+  float: right;
+}

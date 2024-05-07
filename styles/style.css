@@ -4,10 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body {
-  background-color: #5fa8d3;
-  color: white;
+  font-family: 'roboto', serif;
 }
 h1 {
   font-family: "roboto", serif;
@@ -66,6 +63,7 @@ footer {
   border-top: solid 1px;
   text-align: center;
   background-color: #1b4965;
+  color: #5fa8d3;
 }
 
 /* Class Selectors */
@@ -74,7 +72,7 @@ footer {
   padding: 1rem;
   border: 1px solid #1b4965;
   background-color: #5fa8d3;
-  color: var(--accent2-color);
+  color: #1b4965;
 }
 
 .profile_pic{

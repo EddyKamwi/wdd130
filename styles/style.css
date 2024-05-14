@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Caveat:wght@100;200;300;400;500;600;700&display=swap);
 h1 {
   font-family: "Caveat", cursive;
-  font-weight:bolder;
+  font-weight: bolder;
   border-bottom: #1b4965 solid 1px;
   text-align: center;
 }
@@ -22,7 +22,7 @@ nav a:link,
 nav a:active {
   color: #5fa8d3;
 }
-ul *:visited{
+ul *:visited {
   color: rgb(29, 1, 30);
 }
 nav a:hover {
@@ -46,12 +46,14 @@ aside h2 {
   color: black;
   padding: 5px;
 }
-aside p{
-  color:black;
+aside p {
+  color: black;
 }
 p {
   padding: 0;
   color: #1b4965;
+  font-size:medium;
+  font-weight: lighter;
 }
 
 footer {

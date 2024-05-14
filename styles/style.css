@@ -35,12 +35,6 @@ main img {
   background-color: #5fa8d3;
   color: black;
 }
-
-aside {
-  width: 20em;
-  text-align: center;
-  position: relative;
-}
 aside h2 {
   position: absolute;
   top: 47px;
@@ -88,6 +82,9 @@ aside {
   position: relative;
   grid-column: 1/2;
   grid-row: 1/2;
+}
+aside img{
+  width: inherit;
 }
 main {
   grid-column: 2/3;

@@ -14,7 +14,7 @@ nav {
 }
 nav a {
   display: block;
-  color: #5fa8d3;
+  color: white;
   text-decoration: none;
   padding: 1rem;
 }
@@ -22,9 +22,12 @@ nav a:link,
 nav a:active {
   color: #5fa8d3;
 }
+ul *:visited{
+  color: rgb(29, 1, 30);
+}
 nav a:hover {
   color: #1b4965;
-  background-color: #5fa8d3;
+  background-color: white;
 }
 main img {
   width: 150px;
@@ -40,9 +43,11 @@ aside h2 {
   opacity: 0.7;
   top: 47px;
   left: 150px;
-  color: snow;
-  background-color: green;
+  color: black;
   padding: 5px;
+}
+aside p{
+  color:black;
 }
 p {
   padding: 0;
@@ -60,7 +65,7 @@ footer {
 .box {
   border: 1px solid #1b4965;
   background-color: #5fa8d3;
-  color: #1b4965;
+  color: black;
 }
 
 .profile_pic {

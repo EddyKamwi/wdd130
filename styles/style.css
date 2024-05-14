@@ -4,6 +4,8 @@
 }
 h1 {
   font-family: "roboto", serif;
+  border-bottom: #1b4965 solid 1px;
+  text-align: center;
 }
 nav {
   background-color: #1b4965;
@@ -38,7 +40,7 @@ main img {
 aside h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   position: absolute;
-  opacity: .6;
+  opacity: .7;
   top: 47px;
   left: 150px;
   color: snow;
@@ -50,12 +52,9 @@ p {
 }
 
 footer {
-  margin-top: 20px;
-  padding: 2%;
   border: white;
-  border-top: solid 1px;
+  border-top:#1b4965 solid 1px;
   text-align: center;
-  background-color: #1b4965;
   color: #5fa8d3;
 }
 
@@ -80,6 +79,8 @@ footer,
   grid-gap: 1rem;
   grid-template-columns: auto auto;
   align-items: stretch;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 aside {
   width: 20rem;

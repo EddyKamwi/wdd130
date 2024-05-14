@@ -35,7 +35,6 @@ main img {
   border: none;
   padding: 0%;
   background-color: #5fa8d3;
-  color: black;
 }
 aside h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -49,13 +48,14 @@ aside h2 {
 }
 p {
   padding: 0;
+  color:#1b4965
 }
 
 footer {
   border: white;
   border-top:#1b4965 solid 1px;
   text-align: center;
-  color: #5fa8d3;
+  color: #1b4965
 }
 
 /* Class Selectors */

@@ -1,18 +1,7 @@
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 400 to 700 */
-
-.caveat-h1> {
-  font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-* {
-  font-family: sans-serif;
-}
+@import url(https://fonts.googleapis.com/css2?family=Caveat:wght@100;200;300;400;500;600;700&display=swap);
 h1 {
-  font-weight: lighter;
+  font-family: "Caveat", cursive;
+  font-weight:bolder;
   border-bottom: #1b4965 solid 1px;
   text-align: center;
 }
@@ -46,9 +35,9 @@ main img {
   background-color: #5fa8d3;
 }
 aside h2 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   position: absolute;
-  opacity: .7;
+  opacity: 0.7;
   top: 47px;
   left: 150px;
   color: snow;
@@ -57,14 +46,14 @@ aside h2 {
 }
 p {
   padding: 0;
-  color:#1b4965
+  color: #1b4965;
 }
 
 footer {
   border: white;
-  border-top:#1b4965 solid 1px;
+  border-top: #1b4965 solid 1px;
   text-align: center;
-  color: #1b4965
+  color: #1b4965;
 }
 
 /* Class Selectors */
@@ -99,7 +88,7 @@ aside {
   text-align: center;
   padding: 10px;
 }
-aside img{
+aside img {
   width: inherit;
 }
 main {

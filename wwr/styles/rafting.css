@@ -8,7 +8,7 @@
   font-family: "roboto", sans-serif;
   text-align: center;
 }
-body{
+body {
   background-color: var(--secondary-color);
 }
 #section_1 {
@@ -20,19 +20,19 @@ body{
   justify-content: center;
 }
 
-#section_1 h2{
+#section_1 h2 {
   grid-column: 1/4;
 }
-#section_1 img{
-grid-column: 2/3;
-grid-row: 2;
-width: 200px;
+#section_1 img {
+  grid-column: 2/3;
+  grid-row: 2;
+  width: 200px;
 }
-#parag{
+#parag {
   grid-column: 3/4;
 }
-.front_image{
-  width:;
+.front_image {
+  width: ;
 }
 header,
 footer,
@@ -42,26 +42,27 @@ main {
 
   background-color: var(--secondary-color);
 }
-footer{
-  border-top:white solid 1px;
+footer {
+  border-top: white solid 1px;
   margin-top: 2rem;
 }
 
 .image_container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap:5px;
+  grid-gap: 5px;
   flex-wrap: wrap;
 }
 .image_container img {
   max-width: 150px;
   justify-self: center;
-  
 }
 footer a {
   text-decoration: none;
 }
-
+footer span{
+  grid-column:3/4
+}
 .hero {
   position: relative;
   width: 100%;
@@ -83,7 +84,7 @@ h1 {
   position: absolute;
   text-align: center;
   color: white;
-  padding:1rem 0;
+  padding: 1rem 0;
   background-color: black;
   width: inherit;
   opacity: 0.6;
@@ -107,14 +108,14 @@ article p {
   background-color: aliceblue;
   opacity: 0.7;
   text-align: left;
-  color:rgb(14, 12, 12)
+  color: rgb(14, 12, 12);
 }
 
 header {
-  display: grid;;
+  display: grid;
   grid-template-columns: 2fr 5fr;
   align-items: center;
-  background-color: #BEE9E8;
+  background-color: #bee9e8;
 }
 header img {
   justify-self: right;
@@ -125,11 +126,10 @@ nav {
   display: flex;
   flex-grow: auto;
   justify-self: center;
-
 }
 nav a {
   background-color: white;
-  border:var(--primary-color)  solid 1px;
+  border: var(--primary-color) solid 1px;
   margin: 1px;
   display: block;
   text-decoration: none;
@@ -147,4 +147,9 @@ footer * {
   text-align: center;
   clear: both;
   margin: 2px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
 }

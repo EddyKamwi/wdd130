@@ -83,9 +83,9 @@ h1 {
   position: absolute;
   text-align: center;
   color: white;
-  padding: 1rem;
+  padding:1rem 0;
   background-color: black;
-  width: 920px;
+  width: inherit;
   opacity: 0.6;
   margin-top: 1rem;
 }
@@ -114,6 +114,7 @@ header {
   display: grid;;
   grid-template-columns: 2fr 5fr;
   align-items: center;
+  background-color: #BEE9E8;
 }
 header img {
   justify-self: right;

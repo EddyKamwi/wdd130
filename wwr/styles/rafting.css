@@ -15,7 +15,6 @@ body {
   max-width: 960px;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
-  grid-template-rows: 2;
   align-items: center;
   justify-content: center;
 }
@@ -50,7 +49,9 @@ footer {
   grid-gap: 5px;
   flex-wrap: wrap;
 }
-figure{margin:0;}
+figure {
+  margin: 0;
+}
 .image_container img {
   max-width: 150px;
   justify-self: center;
@@ -58,11 +59,11 @@ figure{margin:0;}
 footer a {
   text-decoration: none;
 }
-footer span{
+footer span {
   align-self: center;
-  grid-column:3/4
+  grid-column: 3/4;
 }
-footer p{
+footer p {
   grid-column: 2/3;
 }
 .hero {
@@ -117,8 +118,7 @@ header {
   display: grid;
   grid-template-columns: 2fr 5fr;
   align-items: center;
-  background-color: var(--primary-color)
-;  /* #bee9e8; */
+  background-color: var(--primary-color); /* #bee9e8; */
 }
 header img {
   justify-self: right;
@@ -127,7 +127,6 @@ header img {
 nav {
   font-size: 1.2rem;
   display: flex;
-  flex-grow: auto;
   justify-self: center;
 }
 nav a {

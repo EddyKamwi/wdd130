@@ -50,6 +50,7 @@ footer {
   grid-gap: 5px;
   flex-wrap: wrap;
 }
+figure{margin:0;}
 .image_container img {
   max-width: 150px;
   justify-self: center;

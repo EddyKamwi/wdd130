@@ -38,7 +38,7 @@ header,
 footer,
 main {
   max-width: 960px;
-  margin: 0 auto;
+  margin: 0 auto 1rem;
 
   background-color: var(--secondary-color);
 }
@@ -119,7 +119,8 @@ header {
   display: grid;
   grid-template-columns: 2fr 5fr;
   align-items: center;
-  background-color: #bee9e8;
+  background-color: var(--primary-color)
+;  /* #bee9e8; */
 }
 header img {
   justify-self: right;

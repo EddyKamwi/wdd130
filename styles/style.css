@@ -10,6 +10,7 @@
 h1 {
   font-family: "Caveat", cursive;
   font-weight: bolder;
+  border-bottom: var(--primary-color) solid 1px;
   text-align: center;
 }
 nav {

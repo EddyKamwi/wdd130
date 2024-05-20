@@ -11,7 +11,7 @@ h4,
 h5,
 h6 {
   font-family: "roboto", serif;
-  color: #1b4965;
+  color:black;
 }
 
 header {
@@ -32,11 +32,16 @@ nav a {
   text-decoration: none;
   padding: 1rem;
 }
-nav a:link,
-nav a:visited {
-  color:rgb(37, 2, 37);
+nav a:link {
+  color:white;
+  background-color: transparent;
 }
 nav a:hover {
   color: black;
   background-color: #5fa8d3;
+}
+footer {
+  border-top: #1b4965 solid 1px;
+  clear: both;
+  margin-top: 2rem;
 }

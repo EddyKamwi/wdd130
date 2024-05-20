@@ -28,15 +28,15 @@ nav {
 }
 nav a {
   display: block;
-  color: #5fa8d3;
+  color:white;
   text-decoration: none;
   padding: 1rem;
 }
 nav a:link,
 nav a:visited {
-  color: #5fa8d3;
+  color:rgb(37, 2, 37);
 }
 nav a:hover {
-  color: #bee9e8;
+  color: black;
   background-color: #5fa8d3;
 }

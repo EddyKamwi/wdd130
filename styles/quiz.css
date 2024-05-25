@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css2?family=Comic+Neue:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: 'Comic Neue', handwriting;
+}
+h1,form{
+    display: grid;
+    max-width: 440px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-weight: bold;
+    
+}
+form{
+    background-color: #BEE9E8;
+}
+textarea{
+    height: 4rem;
+}
+input,select{
+    height: 1.5rem;
+}
+button{
+    background-color:#1B4965;
+    height: 2rem;
+    border: 1px solid #000;
+    color: #fff;
+    border-radius: 5px;
+}

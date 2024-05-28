@@ -43,8 +43,7 @@ body {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
 }
-.card_2 span,
-.card_1 span,
+
 .card_2 span a,
 .card_1 span a {
   background-color: transparent;
@@ -52,12 +51,35 @@ body {
   border-radius: 5px;
   color: white;
   text-decoration: none;
+  border: #fff solid 1px;
 }
 .top_para {
   grid-column: 1/5;
 }
 #parag {
   grid-column: 3/4;
+}
+.employee_container{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  height: 400px;
+}
+.employee_container h2{
+  grid-column: 1/4;
+}
+.employee_container figure{
+  border: #fff solid 3px;
+  border-radius: 15px;
+  caption-side: bottom;
+  height: 300px;
+  width: 250px;
+  margin: 5px;
+  
+}
+.employee_container figure img{
+  width:inherit;
+  margin:auto auto;
+  border-radius: 15px;
 }
 .employee {
   grid-column: 1/2;

@@ -9,7 +9,7 @@
     <meta name="author" content="Edward Kamwi">
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <!-- external css -->
-    <link type="text/css" rel="stylesheet" href="styles/contact.css">
+    <link type="text/css" rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
     </header>
     <main>
         <div class="hero">
-            <h1>Contact Our Team</h1>
+            <h1 class="heading">Contact Our Team</h1>
             <section class="section_1">
                 <p class="top_para">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi incidunt ex repudiandae exercitationem
@@ -33,7 +33,7 @@
                 </p>
                 <div class="contact">
                     <div class="card_1">
-                        <h2>Talk to Sales</h2>
+                        <h2 class="heading">Talk to Sales</h2>
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         </p>
@@ -42,7 +42,7 @@
 
                     </div>
                     <div class="card_2">
-                        <h2>Customer Service</h2>
+                        <h2 class="heading">Customer Service</h2>
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
                         <span class="button"><a href="call">CONTACT SUPPORT</a></span>
@@ -52,9 +52,9 @@
 
             </section>
             <section class="map_section">
-                <h2>Headquarters</h2>
+                <h2 class="heading">Headquarters</h2>
                 <aside>
-                    <h3>Lusaka, Zambia</h3>
+                    <h3 class="heading">Lusaka, Zambia</h3>
                     <p>
                         <span><img src="images/location-dot-solid.svg" alt="map icon" width="20"> 123 road 10101
                             Lusaka</span><br><br>
@@ -76,7 +76,7 @@
             </section>
             <section class="section_3">
                 <article>
-                    <h3>Sandra Pearson</h3>
+                    <h3 class="heading">Sandra Pearson</h3>
                     <aside class="employee">
                         <br>
                         <h4>Phd: Marine</h4>
@@ -87,15 +87,37 @@
                     </aside>
                     <img src="images/happy.png" alt="Sandra" class="sandra">
                 </article>
-                <form action="none" method="get">
-                    <h2>Send Us a Message</h2>
+                <form action="none" method="get" id="send_message">
+                    <h2 class="heading">Send Us a Message</h2>
                     <p>Send us a message and we will respond within 24 hours.</p>
                     <label for="name">Name:</label><br>
                     <input type="text" id="name" name="name" autocomplete="on"><br>
                     <label for="email">Email:</label><br>
                     <input type="text" name="email" id="email" autocomplete="on"><br>
+                    <fieldset>
+                        <legend>Select Purpose of message</legend>
+                        <div>
+                            <input type="radio" value="general_inquiry" name="general_inquiry" id="general_inquiry"
+                                checked>
+                            <label for="general_inquiry">General Inquiry</label>
+                        </div>
+                        <div>
+                            <input type="radio" value="reservation_question" name="reservation_question"
+                                id="reservation_question">
+                            <label for="reservation_question">Reservation Question</label>
+                        </div>
+                        <div>
+                            <input type="radio" value="website_suggestion" name="website_suggestion"
+                                id="website_suggestion">
+                            <label for="website_suggestion">Website Suggestion</label>
+                        </div>
+                    </fieldset><br>
+
                     <label for="message">Message:</label><br>
                     <textarea name="message" id="message" autocomplete="on"></textarea><br>
+
+                    <span><label for="newsletter">Subscribe to monthly newsletter</label>
+                        <input type="checkbox" name="newsletter" id="newsletter"></span>
                     <button name="submit_message" id="submit_message">SEND MESSAGE</button>
                 </form>
             </section>

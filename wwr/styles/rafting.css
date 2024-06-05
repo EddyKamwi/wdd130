@@ -366,8 +366,9 @@ form span {
 
 .aside_container{
   padding: 1rem;
-  margin: 0 auto;
+  margin: 2rem auto;
   display: flex;
+  
 }
 
 .aside{

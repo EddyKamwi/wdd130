@@ -44,7 +44,8 @@ body {
   padding-bottom: 1rem;
 }
 
-.card_2 span a,.aside span,
+.card_2 span a,
+.aside span,
 .card_1 span a {
   background-color: transparent;
   padding: 0.8rem 1rem;
@@ -165,7 +166,7 @@ footer {
   justify-self: center;
 }
 figure {
-  margin:auto 1.2rem;
+  margin: auto 1.2rem;
 }
 .image_container img {
   max-width: 150px;
@@ -173,8 +174,8 @@ figure {
 }
 .image_container_home img {
   max-width: 280px;
-  padding:1rem 0;
-  }
+  padding: 1rem 0;
+}
 
 footer a {
   text-decoration: none;
@@ -351,7 +352,7 @@ form span {
   grid-column: 1/5;
   grid-row: 1/6;
 }
-.front_button{
+.front_button {
   grid-column: 4/5;
   grid-row: 5/6;
   border: #fff solid 2px;
@@ -360,28 +361,73 @@ form span {
   margin: 10px;
   font-size: x-large;
   padding: 5px;
-
 }
-.hero_container span a{text-decoration: none;color:#fff}
+.front_button_trips {
+  background-color: #000;
+  opacity: 0.9;
+  grid-column: 2/4;
+  grid-row: 5/6;
+  border: #fff solid 2px;
+  border-radius: 1cap;
+  margin: 10px;
+  font-size: x-large;
+  align-self: center;
+  padding: 5px;
+}
+.hero_container span a {
+  text-decoration: none;
+  color: #fff;
+}
 
-.aside_container{
+.aside_container {
   padding: 1rem;
   margin: 2rem auto;
   display: flex;
-  
 }
 
-.aside{
+.aside {
   border: #fff solid 1px;
   width: 50rex;
   padding: 2rem 1rem;
   margin-left: 50rex;
-  margin-top: 1.5rem ;
+  margin-top: 1.5rem;
   height: 30rex;
-  position:absolute;
-  background-color:var(--primary-color);
+  position: absolute;
+  background-color: var(--primary-color);
 }
-.aside h2,.aside p{
+.aside h2,
+.aside p {
   text-align: left;
   padding: 0;
+}
+/* .trips_section{
+  
+} */
+.trips_section h2 {
+  text-align: left;
+  margin-left: 26%;
+}
+table {
+  display: grid;
+  width: 500px;
+  padding: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  border: solid 1px;
+}
+td {
+  padding: 1rem;
+  width: 160px;
+}
+tr {
+  padding-left: 0;
+  background-color: #0a3c5c;
+}
+thead {
+  border-bottom: #fff solid 1px;
+  vertical-align: middle;
+}
+tbody {
+  vertical-align: middle;
 }

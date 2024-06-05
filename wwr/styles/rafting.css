@@ -377,7 +377,6 @@ form span {
   height: 30rex;
   position:absolute;
   background-color:var(--primary-color);
-  opacity:.8;
 }
 .aside h2,.aside p{
   text-align: left;

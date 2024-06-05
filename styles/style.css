@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Caveat:wght@100;200;300;400;500;600;700&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 :root {
   --bckgrnd-primary: #1b4965;
   --bckgrnd-secondary: #5fa8d3;
@@ -12,6 +17,7 @@ h1 {
   font-weight: bolder;
   border-bottom: var(--bckgrnd-primary) solid 1px;
   text-align: center;
+  margin-bottom: 1rem;
 }
 nav {
   background-color: var(--bckgrnd-primary);
@@ -19,7 +25,6 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
 }
 nav a {
   display: block;
@@ -71,12 +76,18 @@ footer {
   text-align: center;
   color: var(--bckgrnd-primary);
 }
+p{
+  margin:1rem;
+  text-align: left;
+}
 
 /* Class Selectors */
 .box {
   border: 1px solid var(--bckgrnd-primary);
   background-color: var(--bckgrnd-secondary);
   color: var(--assert-color-2);
+  padding: 4px;
+  margin-top: 1rem;
 }
 
 .profile_pic {
@@ -105,9 +116,13 @@ aside {
   padding: 10px;
 }
 aside img {
-  width: inherit;
+  width: 300px;
 }
 main {
   grid-column: 2/3;
-  margin: 1rem;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+footer p{
+  text-align: center;
 }

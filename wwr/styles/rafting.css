@@ -44,7 +44,7 @@ body {
   padding-bottom: 1rem;
 }
 
-.card_2 span a,
+.card_2 span a,.aside span,
 .card_1 span a {
   background-color: transparent;
   padding: 0.8rem 1rem;
@@ -59,26 +59,25 @@ body {
 #parag {
   grid-column: 3/4;
 }
-.employee_container{
+.employee_container {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
   height: 400px;
 }
-.employee_container h2{
+.employee_container h2 {
   grid-column: 1/4;
 }
-.employee_container figure{
+.employee_container figure {
   border: #fff solid 3px;
   border-radius: 15px;
   caption-side: bottom;
   height: 300px;
   width: 250px;
   margin: 5px;
-  
 }
-.employee_container figure img{
-  width:inherit;
-  margin:auto auto;
+.employee_container figure img {
+  width: inherit;
+  margin: auto auto;
   border-radius: 15px;
 }
 .employee {
@@ -89,7 +88,7 @@ body {
   align-content: center;
   padding: 2px;
 }
-.employee p{
+.employee p {
   background-color: transparent;
   color: white;
   opacity: 1;
@@ -157,14 +156,26 @@ footer {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 5px;
   flex-wrap: wrap;
+  max-width: 150px;
+}
+.image_container_home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  justify-self: center;
 }
 figure {
-  margin: 0;
+  margin:auto 1.2rem;
 }
 .image_container img {
   max-width: 150px;
   justify-self: center;
 }
+.image_container_home img {
+  max-width: 280px;
+  padding:1rem 0;
+  }
+
 footer a {
   text-decoration: none;
 }
@@ -178,6 +189,7 @@ footer p {
 .hero {
   position: relative;
   width: 100%;
+  padding-bottom: 1rem;
 }
 span img {
   background-color: #fff;
@@ -306,7 +318,7 @@ form button {
   height: 2rem;
   border: var(--secondary-color) double 2px;
   border-radius: 5px;
-  color:#fff;
+  color: #fff;
 }
 form input {
   border: #0a3c5c solid 2px;
@@ -329,4 +341,45 @@ form input {
 form span {
   border: none;
   margin: 1rem;
+}
+.hero_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.hero_container img {
+  grid-column: 1/5;
+  grid-row: 1/6;
+}
+.hero_container button{
+  grid-column: 4/5;
+  grid-row: 5/6;
+  border: #fff solid 2px;
+  border-radius: 1cap;
+  background-color: transparent;
+  margin: 10px;
+  font-size: x-large;
+
+}.hero_container button a{text-decoration: none;color:#fff}
+
+.aside_container{
+  padding: 1rem;
+  margin: 0 auto;
+  display: flex;
+}
+
+.aside{
+  border: #fff solid 1px;
+  width: 50rex;
+  padding: 2rem 1rem;
+  margin-left: 50rex;
+  margin-top: 1.5rem ;
+  height: 30rex;
+  position:absolute;
+  background-color:var(--primary-color);
+  opacity:.8;
+}
+.aside h2,.aside p{
+  text-align: left;
+  padding: 0;
 }

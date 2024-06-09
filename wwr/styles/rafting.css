@@ -285,10 +285,6 @@ nav a:link,
 nav a:visited {
   color: var(--primary-color);
 }
-nav a:hover, a:active {
-  color: white;
-  background-color: #5fa8d3;
-}
 footer * {
   text-align: center;
   clear: both;
@@ -431,3 +427,10 @@ thead {
 tbody {
   vertical-align: middle;
 }
+nav a:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+}
+ .active{
+  background-color: #CAE9FF;
+ }

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting...</title>
+    <script>
+      // This function will be called when the page loads
+      function redirect() {
+        // URL to redirect to
+        var url = "http://qualis.wuaze.com/";
+        
+        // Redirect after 2 seconds (2000 milliseconds)
+        setTimeout(function () {
+          window.location.href = url;
+        }, 500);
+      }
+    </script>
+  </head>
+  <body onload="redirect()">
+    <!-- This page is intentionally left blank -->
+  </body>
+</html>
